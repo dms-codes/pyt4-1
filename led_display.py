@@ -7,8 +7,6 @@ def get_led():
   # ### ###   # ### ###   # ### ### ###"""
       
     lines = led_string.split("\n")[1:]
-    for line in lines:
-        print(line)
     led = {
         '1':[],
         '2':[],
